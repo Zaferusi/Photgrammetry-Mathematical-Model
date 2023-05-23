@@ -29,7 +29,9 @@ m_2_2=round((math.cos(o*math.pi/200)*math.cos(f*math.pi/200)),3)
 matrix = [[m_0_0, m_0_1, m_0_2],
     [m_1_0, m_1_1, m_1_2],
     [m_2_0, m_2_1, m_2_2]]
-print(matrix)
+
+#print(matrix)
+#This print is optional if you want to check your matrices. I advise this because ıt make easier notice your error.
 
 # Projection_center
 x,y,z=float(input('Proje(ilk koordinat giriniz): ')),float(input('Proje(ikinci koordinat giriniz):  ')),float(input('Proje(üçüncü koordinat giriniz):  '))
