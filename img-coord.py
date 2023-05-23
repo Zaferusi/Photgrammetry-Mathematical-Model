@@ -34,12 +34,14 @@ matrix = [[m_0_0, m_0_1, m_0_2],
 #This print is optional if you want to check your matrices. I advise this because ıt make easier notice your error.
 
 # Projection_center
-x,y,z=float(input('Proje(ilk koordinat giriniz): ')),float(input('Proje(ikinci koordinat giriniz):  ')),float(input('Proje(üçüncü koordinat giriniz):  '))
+x,y,z=float(input('Project(Enter your X coordinate of first point): ')),float(input('Project(Enter your Y coordinate of first point):  ')),float(input('Project(Enter your Z coordinate of first point):  '))
 Pr_k=[]
 Pr_k.append(x)
 Pr_k.append(y)
 Pr_k.append(z)
-print(Pr_k)
+
+#print(Pr_k) Optional
+#Now code require the project coordinates of first point.
 
 
 # Inter_Or
