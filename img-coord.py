@@ -60,7 +60,9 @@ Field_cr=[]
 Field_cr.append(c_X)
 Field_cr.append(c_Y)
 Field_cr.append(c_Z)
-print(Field_cr)
+
+#print(Field_cr)
+#Last we creating inputs for field coordinates of field point to be transformed.
 
 Field_X=(x0-(f0*((m_0_0*(x-c_X)+m_1_0*(y-c_Y)+m_2_0*(z-c_Z))/(m_0_2*(x-c_X)+m_1_2*(y-c_Y)+m_2_2*(z-c_Z)))))
 Field_Y=(y0-(f0*((m_0_1*(x-c_X)+m_1_1*(y-c_Y)+m_2_1*(z-c_Z))/(m_0_2*(x-c_X)+m_1_2*(y-c_Y)+m_2_2*(z-c_Z)))))
