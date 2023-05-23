@@ -34,14 +34,15 @@ matrix = [[m_0_0, m_0_1, m_0_2],
 #This print is optional if you want to check your matrices. I advise this because ıt make easier notice your error.
 
 # Projection_center
-x,y,z=float(input('Project(Enter your X coordinate of first point): ')),float(input('Project(Enter your Y coordinate of first point):  ')),float(input('Project(Enter your Z coordinate of first point):  '))
+x,y,z=float(input('Project(Enter your X coordinate of projection center): ')),float(input('Project(Enter your Y coordinate of projection center):  ')),float(input('Project(Enter your Z coordinate of projection center):  '))
 Pr_k=[]
 Pr_k.append(x)
 Pr_k.append(y)
 Pr_k.append(z)
 
 #print(Pr_k) Optional
-#Now code require the project coordinates of first point.
+#These coordinates are your object space coordinates of projection center.
+#Now code require the object space coordinates of projection center.
 
 
 # Inter_Or
@@ -50,8 +51,8 @@ Int_or=[]
 Int_or.append(x0)
 Int_or.append(y0)
 Int_or.append(f0)
-print(Int_or)
-
+#print(Int_or)
+#Then we create input parameters for interior orientation .These are as you know fiducial marks and x0 and y0.
 
 # Field_cord
 c_X,c_Y,c_Z=float(input('Field_X: ')),float(input('Field_Y: ')),float(input('Field_Z: '))
