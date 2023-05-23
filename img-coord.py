@@ -25,7 +25,7 @@ m_2_0=round((math.sin(o*math.pi/200)*math.sin(k*math.pi/200)-math.cos(o*math.pi/
 m_2_1=round((math.sin(o*math.pi/200)*math.cos(k*math.pi/200)+math.cos(o*math.pi/200)*math.sin(f*math.pi/200)*math.sin(k*math.pi/200)),3)
 m_2_2=round((math.cos(o*math.pi/200)*math.cos(f*math.pi/200)),3)
 
-
+#Now we are creating the translation matrices, it is optional that using basic radyan-pi transformation rather than calculate each steps. I will be waiting for your requests.
 matrix = [[m_0_0, m_0_1, m_0_2],
     [m_1_0, m_1_1, m_1_2],
     [m_2_0, m_2_1, m_2_2]]
