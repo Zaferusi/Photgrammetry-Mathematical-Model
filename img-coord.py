@@ -67,6 +67,9 @@ Field_cr.append(c_Z)
 Field_X=(x0-(f0*((m_0_0*(x-c_X)+m_1_0*(y-c_Y)+m_2_0*(z-c_Z))/(m_0_2*(x-c_X)+m_1_2*(y-c_Y)+m_2_2*(z-c_Z)))))
 Field_Y=(y0-(f0*((m_0_1*(x-c_X)+m_1_1*(y-c_Y)+m_2_1*(z-c_Z))/(m_0_2*(x-c_X)+m_1_2*(y-c_Y)+m_2_2*(z-c_Z)))))
 
+#And finally we reach our image plane coordinates of field point. 
+# It is your choise to assign them in variables but I prefer to print out.
+ 
 
 print(Field_X,Field_Y)
 
